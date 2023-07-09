@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: #eeedef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    background-color: #009432;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    height: 35px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+}
