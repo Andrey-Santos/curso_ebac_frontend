@@ -6,9 +6,9 @@ $(document).ready(function(){
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn(1000);
         $('#nome-tarefa').val('');
-    })
-
-    $('li').click(function(){
-        $(this).toggleClass('checked');
+        
+        $('li').click(function(){
+            $(this).toggleClass('checked');
+        })
     })
 })
